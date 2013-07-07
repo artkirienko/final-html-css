@@ -1,0 +1,59 @@
+
+.container {
+	width: 960px;
+	margin: auto;
+	
+}
+
+/*
+***********************
+* =header
+***********************
+*/
+
+header {
+	overflow: hidden;
+}
+
+header h1 {
+	background: url(../img/logo.png) no-repeat;
+	text-indent: -9999px;
+	width: 175px;
+	height: 25px;
+	margin: 10px 10px;
+	float: left;
+}
+
+/*
+***********************
+* =navigation
+***********************
+*/
+
+nav li {
+	float: right;
+	display: inline;
+}
+
+/*
+***********************
+* =banner
+***********************
+*/
+
+
+.banner {
+	background: url(../img/night_bg.jpg) no-repeat;
+	height: 330px;
+	width: 786px;
+		/*
+	background: url(../img/city_bg.jpg) no-repeat;
+	height: 226px;
+	width: 692px;
+	*/
+}
+
+.callout {
+	background: black;
+	height: 330px;
+}
