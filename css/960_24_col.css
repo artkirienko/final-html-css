@@ -1,16 +1,16 @@
 /*
-  960 Grid System ~ Core CSS.
-  Learn more ~ http://960.gs/
+960 Grid System ~ Core CSS.
+Learn more ~ http://960.gs/
 
-  Licensed under GPL and MIT.
+Licensed under GPL and MIT.
 */
 
 /*
-  Forces backgrounds to span full width,
-  even if there is horizontal scrolling.
-  Increase this if your layout is wider.
+Forces backgrounds to span full width,
+even if there is horizontal scrolling.
+Increase this if your layout is wider.
 
-  Note: IE6 works fine without this fix.
+Note: IE6 works fine without this fix.
 */
 
 body {
@@ -611,8 +611,8 @@ body {
 }
 
 /*
-  The following zoom:1 rule is specifically for IE6 + IE7.
-  Move to separate stylesheet if invalid CSS is a problem.
+The following zoom:1 rule is specifically for IE6 + IE7.
+Move to separate stylesheet if invalid CSS is a problem.
 */
 
 .clearfix,

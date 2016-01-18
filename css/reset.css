@@ -114,23 +114,23 @@ main,
 menu,
 nav,
 section {
-/*
+  /*
   Override the default (display: inline) for
   browsers that do not recognize HTML5 tags.
 
   IE8 (and lower) requires a shiv:
   http://ejohn.org/blog/html5-shiv
-*/
+  */
   display: block;
 }
 
 b,
 strong {
-/*
+  /*
   Makes browsers agree.
   IE + Opera = font-weight: bold.
   Gecko + WebKit = font-weight: bolder.
-*/
+  */
   font-weight: bold;
 }
 
@@ -138,10 +138,10 @@ img {
   color: transparent;
   font-size: 0;
   vertical-align: middle;
-/*
+  /*
   For IE.
   http://css-tricks.com/ie-fix-bicubic-scaling-for-images
-*/
+  */
   -ms-interpolation-mode: bicubic;
 }
 
@@ -151,12 +151,12 @@ ul {
 }
 
 li {
-/*
+  /*
   For IE6 + IE7:
 
   "display: list-item" keeps bullets from
   disappearing if hasLayout is triggered.
-*/
+  */
   display: list-item;
 }
 
@@ -205,9 +205,9 @@ sup {
 }
 
 svg {
-/*
+  /*
   For IE9. Without, occasionally draws shapes
   outside the boundaries of <svg> rectangle.
-*/
+  */
   overflow: hidden;
 }
