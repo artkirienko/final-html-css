@@ -2,6 +2,6 @@ language: node_js
 node_js: "10.1.0"
 install: yarn
 script:
-  - yarn init
+  - yarn init -y
   - yarn add htmlhint
   - yarn htmlhint
