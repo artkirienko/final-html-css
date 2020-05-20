@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-  background: url(../img/logo.png) no-repeat;
+  background: url(../img/logo.webp) no-repeat;
   text-indent: -9999px;
   width: 175px;
   height: 25px;
@@ -64,14 +64,14 @@ nav a {
 
 }
 .banner {
-  background: url(../img/night_bg2.jpg) no-repeat;
+  background: url(../img/night_bg2.webp) no-repeat;
   /*height: 330px;*/
   height: 253px;
   width: 600px;
 
   /*margin: 0 0 20px 0;*/
   /*
-  background: url(../img/city_bg.jpg) no-repeat;
+  background: url(../img/city_bg.webp) no-repeat;
   height: 226px;
   width: 692px;
   */
